@@ -1,0 +1,7 @@
+table_details:
+  departments:
+    table_name: "departments"
+    schema: "practice"
+    file_name: "departments_fixed_width_file.txt"
+    config_name: "col_specs_fwf_departments.json"
+    specification_name: "col_specs_fwf_departments.json"
