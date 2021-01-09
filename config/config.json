@@ -1,0 +1,8 @@
+{
+    "Redshift_Dev": {
+        "user": "",
+        "password": "",
+        "port" : "",
+        "dbname" : ""
+    }
+}
