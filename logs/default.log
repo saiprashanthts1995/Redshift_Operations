@@ -1,0 +1,183 @@
+2021-01-10 04:29:40.123 | INFO     | __main__:<module>:49 - Welcome! This is useful for loading file into redshift
+2021-01-10 04:29:40.123 | INFO     | utils:read_col_specs:24 - Column Specification for Fixed width is shown below {'ID': 4, 'DEPT': 21, 'AMOUNT': 5, 'AMOUNT1': 4}
+2021-01-10 04:29:50.130 | INFO     | __main__:<module>:49 - Welcome! This is useful for loading file into redshift
+2021-01-10 04:29:50.130 | INFO     | utils:read_col_specs:24 - Column Specification for Fixed width is shown below {'ID': 4, 'DEPT': 21, 'AMOUNT': 5, 'AMOUNT1': 4}
+2021-01-10 04:37:34.357 | INFO     | __main__:<module>:58 - Welcome! This is useful for loading file into redshift
+2021-01-10 04:37:34.357 | INFO     | utils:read_col_specs:24 - Column Specification for Fixed width is shown below {'ID': 4, 'DEPT': 21, 'AMOUNT': 5, 'AMOUNT1': 4}
+2021-01-10 04:37:34.357 | INFO     | utils:read_config:71 - config.json read successfully
+2021-01-10 04:37:57.326 | INFO     | __main__:<module>:59 - Welcome! This is useful for loading file into redshift
+2021-01-10 04:37:57.342 | INFO     | utils:read_col_specs:24 - Column Specification for Fixed width is shown below {'ID': 4, 'DEPT': 21, 'AMOUNT': 5, 'AMOUNT1': 4}
+2021-01-10 04:37:57.342 | INFO     | utils:read_config:71 - config.json read successfully
+2021-01-10 04:38:32.092 | INFO     | __main__:<module>:59 - Welcome! This is useful for loading file into redshift
+2021-01-10 04:38:32.107 | INFO     | utils:read_col_specs:24 - Column Specification for Fixed width is shown below {'ID': 4, 'DEPT': 21, 'AMOUNT': 5, 'AMOUNT1': 4}
+2021-01-10 04:38:32.107 | INFO     | utils:read_config:71 - config.json read successfully
+2021-01-10 04:38:51.307 | INFO     | __main__:<module>:60 - Welcome! This is useful for loading file into redshift
+2021-01-10 04:38:51.307 | INFO     | utils:read_col_specs:24 - Column Specification for Fixed width is shown below {'ID': 4, 'DEPT': 21, 'AMOUNT': 5, 'AMOUNT1': 4}
+2021-01-10 04:38:51.322 | INFO     | utils:read_config:71 - config.json read successfully
+2021-01-10 04:39:45.654 | INFO     | __main__:<module>:60 - Welcome! This is useful for loading file into redshift
+2021-01-10 04:39:45.654 | INFO     | utils:read_col_specs:24 - Column Specification for Fixed width is shown below {'ID': 4, 'DEPT': 21, 'AMOUNT': 5, 'AMOUNT1': 4}
+2021-01-10 04:39:45.670 | INFO     | utils:read_config:71 - config.json read successfully
+2021-01-10 04:41:42.214 | INFO     | __main__:<module>:61 - Welcome! This is useful for loading file into redshift
+2021-01-10 04:41:42.230 | INFO     | utils:read_col_specs:24 - Column Specification for Fixed width is shown below {'ID': 4, 'DEPT': 21, 'AMOUNT': 5, 'AMOUNT1': 4}
+2021-01-10 04:41:42.230 | INFO     | utils:read_config:71 - config.json read successfully
+2021-01-10 04:42:26.488 | INFO     | __main__:<module>:61 - Welcome! This is useful for loading file into redshift
+2021-01-10 04:42:26.488 | INFO     | utils:read_col_specs:24 - Column Specification for Fixed width is shown below {'ID': 4, 'DEPT': 21, 'AMOUNT': 5, 'AMOUNT1': 4}
+2021-01-10 04:42:26.504 | INFO     | utils:read_config:71 - config.json read successfully
+2021-01-10 04:42:46.162 | INFO     | __main__:<module>:61 - Welcome! This is useful for loading file into redshift
+2021-01-10 04:42:46.162 | INFO     | utils:read_col_specs:24 - Column Specification for Fixed width is shown below {'ID': 4, 'DEPT': 21, 'AMOUNT': 5, 'AMOUNT1': 4}
+2021-01-10 04:42:46.178 | INFO     | utils:read_config:71 - config.json read successfully
+2021-01-10 04:44:00.488 | INFO     | __main__:<module>:61 - Welcome! This is useful for loading file into redshift
+2021-01-10 04:44:00.504 | INFO     | utils:read_col_specs:24 - Column Specification for Fixed width is shown below {'ID': 4, 'DEPT': 21, 'AMOUNT': 5, 'AMOUNT1': 4}
+2021-01-10 04:44:00.504 | INFO     | utils:read_config:71 - config.json read successfully
+2021-01-10 04:44:30.264 | INFO     | __main__:<module>:61 - Welcome! This is useful for loading file into redshift
+2021-01-10 04:44:30.280 | INFO     | utils:read_col_specs:24 - Column Specification for Fixed width is shown below {'ID': 4, 'DEPT': 21, 'AMOUNT': 5, 'AMOUNT1': 4}
+2021-01-10 04:44:30.280 | INFO     | utils:read_config:71 - config.json read successfully
+2021-01-10 04:45:09.664 | INFO     | __main__:<module>:63 - Welcome! This is useful for loading file into redshift
+2021-01-10 04:45:09.680 | INFO     | utils:read_col_specs:24 - Column Specification for Fixed width is shown below {'ID': 4, 'DEPT': 21, 'AMOUNT': 5, 'AMOUNT1': 4}
+2021-01-10 04:45:09.680 | INFO     | utils:read_config:71 - config.json read successfully
+2021-01-10 04:45:53.919 | INFO     | __main__:<module>:62 - Welcome! This is useful for loading file into redshift
+2021-01-10 04:45:53.919 | INFO     | utils:read_col_specs:24 - Column Specification for Fixed width is shown below {'ID': 4, 'DEPT': 21, 'AMOUNT': 5, 'AMOUNT1': 4}
+2021-01-10 04:45:53.919 | INFO     | utils:read_config:71 - config.json read successfully
+2021-01-10 05:01:38.921 | INFO     | __main__:<module>:84 - Welcome! This is useful for loading file into redshift
+2021-01-10 05:02:06.129 | INFO     | __main__:<module>:84 - Welcome! This is useful for loading file into redshift
+2021-01-10 05:02:06.144 | INFO     | __main__:main:76 - Process of loading file to Redshift started successfully
+2021-01-10 05:02:06.144 | INFO     | utils:read_col_specs:24 - Column Specification for Fixed width is shown below {'ID': 4, 'DEPT': 21, 'AMOUNT': 5, 'AMOUNT1': 4}
+2021-01-10 05:02:06.160 | INFO     | __main__:read_fixed_width:35 - Data frame after reading first 5 rows is shown below    ID             DEPT  AMOUNT  AMOUNT1
+0  20        Marketing   201.0      180
+1  30       Purchasing   114.0      170
+2  40  Human Resources   203.0      240
+3  50         Shipping   121.0      150
+4  60               IT   103.0      140
+2021-01-10 05:02:06.160 | INFO     | utils:read_config:71 - config.json read successfully
+2021-01-10 05:15:47.776 | INFO     | __main__:<module>:99 - Welcome! This is useful for loading file into redshift
+2021-01-10 05:15:47.776 | INFO     | __main__:read_table_details:16 - tbl_details.yaml read completed. Details loaded for section departments
+2021-01-10 05:16:10.828 | INFO     | __main__:<module>:100 - Welcome! This is useful for loading file into redshift
+2021-01-10 05:16:10.828 | INFO     | __main__:read_table_details:16 - tbl_details.yaml read completed. Details loaded for section departments
+2021-01-10 05:16:24.635 | INFO     | __main__:<module>:100 - Welcome! This is useful for loading file into redshift
+2021-01-10 05:16:24.635 | INFO     | __main__:read_table_details:16 - tbl_details.yaml read completed. Details loaded for section departments
+2021-01-10 05:23:24.917 | INFO     | __main__:<module>:110 - Welcome! This is useful for loading file into redshift
+2021-01-10 05:23:24.917 | INFO     | __main__:read_table_details:22 - tbl_details.yaml read completed. Details loaded for section departments
+2021-01-10 05:23:24.933 | INFO     | __main__:read_table_details:22 - tbl_details.yaml read completed. Details loaded for section departments
+2021-01-10 05:23:24.933 | INFO     | __main__:read_col_specs:41 - Column Specification for Fixed width is shown below {'ID': 4, 'DEPT': 21, 'AMOUNT': 5, 'AMOUNT1': 4}
+2021-01-10 05:23:24.933 | INFO     | __main__:read_table_details:22 - tbl_details.yaml read completed. Details loaded for section departments
+2021-01-10 05:23:24.933 | INFO     | __main__:read_config:90 - config.json read successfully
+2021-01-10 05:29:46.027 | INFO     | __main__:<module>:86 - Welcome! This is useful for loading file into redshift
+2021-01-10 05:29:46.027 | INFO     | __main__:main:78 - Process of loading file to Redshift started successfully
+2021-01-10 05:29:46.027 | INFO     | utils:read_table_details:22 - tbl_details.yaml read completed. Details loaded for section ../data/departments_fixed_width_file.txt
+2021-01-10 05:31:01.460 | INFO     | __main__:<module>:88 - Welcome! This is useful for loading file into redshift
+2021-01-10 05:31:01.460 | INFO     | __main__:main:80 - Process of loading file to Redshift started successfully
+2021-01-10 05:31:01.460 | INFO     | utils:read_table_details:22 - tbl_details.yaml read completed. Details loaded for section ../data/departments_fixed_width_file.txt
+2021-01-10 05:35:01.770 | INFO     | __main__:<module>:89 - Welcome! This is useful for loading file into redshift
+2021-01-10 05:35:01.770 | INFO     | __main__:main:80 - Process of loading file to Redshift started successfully
+2021-01-10 05:35:01.786 | INFO     | utils:read_table_details:22 - tbl_details.yaml read completed. Details loaded for section ../data/departments_fixed_width_file.txt
+2021-01-10 05:36:13.830 | INFO     | __main__:<module>:89 - Welcome! This is useful for loading file into redshift
+2021-01-10 05:36:13.830 | INFO     | __main__:main:80 - Process of loading file to Redshift started successfully
+2021-01-10 05:36:13.830 | INFO     | utils:read_table_details:22 - tbl_details.yaml read completed. Details loaded for section ../data/departments_fixed_width_file.txt
+2021-01-10 05:37:05.049 | INFO     | __main__:<module>:110 - Welcome! This is useful for loading file into redshift
+2021-01-10 05:37:05.049 | INFO     | __main__:read_table_details:22 - tbl_details.yaml read completed. Details loaded for section departments
+2021-01-10 05:37:05.049 | INFO     | __main__:read_col_specs:41 - Column Specification for Fixed width is shown below {'ID': 4, 'DEPT': 21, 'AMOUNT': 5, 'AMOUNT1': 4}
+2021-01-10 05:37:16.550 | INFO     | __main__:<module>:110 - Welcome! This is useful for loading file into redshift
+2021-01-10 05:37:16.550 | INFO     | __main__:read_table_details:22 - tbl_details.yaml read completed. Details loaded for section departments
+2021-01-10 05:37:45.330 | INFO     | __main__:<module>:109 - Welcome! This is useful for loading file into redshift
+2021-01-10 05:37:45.330 | INFO     | __main__:read_table_details:22 - tbl_details.yaml read completed. Details loaded for section departments
+2021-01-10 05:37:45.330 | INFO     | __main__:read_config:89 - config.json read successfully
+2021-01-10 05:38:04.952 | INFO     | __main__:<module>:89 - Welcome! This is useful for loading file into redshift
+2021-01-10 05:38:04.952 | INFO     | __main__:main:80 - Process of loading file to Redshift started successfully
+2021-01-10 05:38:04.968 | INFO     | utils:read_table_details:22 - tbl_details.yaml read completed. Details loaded for section ../data/departments_fixed_width_file.txt
+2021-01-10 05:38:52.759 | INFO     | __main__:<module>:89 - Welcome! This is useful for loading file into redshift
+2021-01-10 05:38:52.759 | INFO     | __main__:main:80 - Process of loading file to Redshift started successfully
+2021-01-10 05:38:52.759 | INFO     | utils:read_table_details:22 - tbl_details.yaml read completed. Details loaded for section departments
+2021-01-10 05:38:52.759 | INFO     | utils:read_col_specs:40 - Column Specification for Fixed width is shown below {'ID': 4, 'DEPT': 21, 'AMOUNT': 5, 'AMOUNT1': 4}
+2021-01-10 05:38:52.759 | INFO     | utils:read_table_details:22 - tbl_details.yaml read completed. Details loaded for section departments
+2021-01-10 05:39:59.249 | INFO     | __main__:<module>:89 - Welcome! This is useful for loading file into redshift
+2021-01-10 05:39:59.249 | INFO     | __main__:main:80 - Process of loading file to Redshift started successfully
+2021-01-10 05:39:59.265 | INFO     | utils:read_table_details:22 - tbl_details.yaml read completed. Details loaded for section departments
+2021-01-10 05:39:59.265 | INFO     | utils:read_col_specs:40 - Column Specification for Fixed width is shown below {'ID': 4, 'DEPT': 21, 'AMOUNT': 5, 'AMOUNT1': 4}
+2021-01-10 05:39:59.265 | INFO     | utils:read_table_details:22 - tbl_details.yaml read completed. Details loaded for section departments
+2021-01-10 05:39:59.265 | INFO     | utils:read_table_details:22 - tbl_details.yaml read completed. Details loaded for section departments
+2021-01-10 05:40:46.626 | INFO     | __main__:<module>:89 - Welcome! This is useful for loading file into redshift
+2021-01-10 05:40:46.626 | INFO     | __main__:main:80 - Process of loading file to Redshift started successfully
+2021-01-10 05:40:46.642 | INFO     | utils:read_table_details:22 - tbl_details.yaml read completed. Details loaded for section departments
+2021-01-10 05:40:46.642 | INFO     | utils:read_col_specs:40 - Column Specification for Fixed width is shown below {'ID': 4, 'DEPT': 21, 'AMOUNT': 5, 'AMOUNT1': 4}
+2021-01-10 05:40:46.642 | INFO     | utils:read_table_details:22 - tbl_details.yaml read completed. Details loaded for section departments
+2021-01-10 05:40:46.642 | INFO     | utils:read_table_details:22 - tbl_details.yaml read completed. Details loaded for section departments
+2021-01-10 05:40:46.657 | INFO     | __main__:read_fixed_width:38 - Data frame after reading first 5 rows is shown below    ID             DEPT  AMOUNT  AMOUNT1
+0  20        Marketing   201.0      180
+1  30       Purchasing   114.0      170
+2  40  Human Resources   203.0      240
+3  50         Shipping   121.0      150
+4  60               IT   103.0      140
+2021-01-10 05:41:14.992 | INFO     | __main__:<module>:88 - Welcome! This is useful for loading file into redshift
+2021-01-10 05:41:14.992 | INFO     | __main__:main:79 - Process of loading file to Redshift started successfully
+2021-01-10 05:41:14.992 | INFO     | utils:read_table_details:22 - tbl_details.yaml read completed. Details loaded for section departments
+2021-01-10 05:41:14.992 | INFO     | utils:read_col_specs:40 - Column Specification for Fixed width is shown below {'ID': 4, 'DEPT': 21, 'AMOUNT': 5, 'AMOUNT1': 4}
+2021-01-10 05:41:14.992 | INFO     | utils:read_table_details:22 - tbl_details.yaml read completed. Details loaded for section departments
+2021-01-10 05:41:15.007 | INFO     | __main__:read_fixed_width:37 - Data frame after reading first 5 rows is shown below    ID             DEPT  AMOUNT  AMOUNT1
+0  20        Marketing   201.0      180
+1  30       Purchasing   114.0      170
+2  40  Human Resources   203.0      240
+3  50         Shipping   121.0      150
+4  60               IT   103.0      140
+2021-01-10 05:41:15.007 | INFO     | utils:read_table_details:22 - tbl_details.yaml read completed. Details loaded for section departments
+2021-01-10 05:41:15.023 | INFO     | utils:read_table_details:22 - tbl_details.yaml read completed. Details loaded for section config.json
+2021-01-10 05:43:12.779 | INFO     | __main__:<module>:88 - Welcome! This is useful for loading file into redshift
+2021-01-10 05:43:12.779 | INFO     | __main__:main:79 - Process of loading file to Redshift started successfully
+2021-01-10 05:43:12.779 | INFO     | utils:read_table_details:22 - tbl_details.yaml read completed. Details loaded for section departments
+2021-01-10 05:43:30.469 | INFO     | __main__:<module>:88 - Welcome! This is useful for loading file into redshift
+2021-01-10 05:43:30.469 | INFO     | __main__:main:79 - Process of loading file to Redshift started successfully
+2021-01-10 05:43:30.469 | INFO     | utils:read_table_details:22 - tbl_details.yaml read completed. Details loaded for section departments
+2021-01-10 05:43:30.484 | INFO     | utils:read_col_specs:40 - Column Specification for Fixed width is shown below {'ID': 4, 'DEPT': 21, 'AMOUNT': 5, 'AMOUNT1': 4}
+2021-01-10 05:43:30.484 | INFO     | utils:read_table_details:22 - tbl_details.yaml read completed. Details loaded for section departments
+2021-01-10 05:43:30.500 | INFO     | __main__:read_fixed_width:37 - Data frame after reading first 5 rows is shown below    ID             DEPT  AMOUNT  AMOUNT1
+0  20        Marketing   201.0      180
+1  30       Purchasing   114.0      170
+2  40  Human Resources   203.0      240
+3  50         Shipping   121.0      150
+4  60               IT   103.0      140
+2021-01-10 05:43:30.500 | INFO     | utils:read_table_details:22 - tbl_details.yaml read completed. Details loaded for section departments
+2021-01-10 05:43:30.500 | INFO     | utils:read_table_details:22 - tbl_details.yaml read completed. Details loaded for section ../config/config.json
+2021-01-10 05:44:16.306 | INFO     | __main__:<module>:109 - Welcome! This is useful for loading file into redshift
+2021-01-10 05:44:16.306 | INFO     | __main__:read_table_details:22 - tbl_details.yaml read completed. Details loaded for section departments
+2021-01-10 05:44:16.306 | INFO     | __main__:read_table_details:22 - tbl_details.yaml read completed. Details loaded for section departments
+2021-01-10 05:44:16.306 | INFO     | __main__:read_col_specs:40 - Column Specification for Fixed width is shown below {'ID': 4, 'DEPT': 21, 'AMOUNT': 5, 'AMOUNT1': 4}
+2021-01-10 05:44:16.321 | INFO     | __main__:read_table_details:22 - tbl_details.yaml read completed. Details loaded for section departments
+2021-01-10 05:44:16.321 | INFO     | __main__:read_config:89 - config.json read successfully
+2021-01-10 05:44:52.791 | INFO     | __main__:<module>:87 - Welcome! This is useful for loading file into redshift
+2021-01-10 05:44:52.791 | INFO     | __main__:main:78 - Process of loading file to Redshift started successfully
+2021-01-10 05:44:52.791 | INFO     | utils:read_table_details:22 - tbl_details.yaml read completed. Details loaded for section departments
+2021-01-10 05:44:52.806 | INFO     | utils:read_col_specs:40 - Column Specification for Fixed width is shown below {'ID': 4, 'DEPT': 21, 'AMOUNT': 5, 'AMOUNT1': 4}
+2021-01-10 05:44:52.806 | INFO     | utils:read_table_details:22 - tbl_details.yaml read completed. Details loaded for section departments
+2021-01-10 05:44:52.822 | INFO     | __main__:read_fixed_width:37 - Data frame after reading first 5 rows is shown below    ID             DEPT  AMOUNT  AMOUNT1
+0  20        Marketing   201.0      180
+1  30       Purchasing   114.0      170
+2  40  Human Resources   203.0      240
+3  50         Shipping   121.0      150
+4  60               IT   103.0      140
+2021-01-10 05:44:52.822 | INFO     | utils:read_table_details:22 - tbl_details.yaml read completed. Details loaded for section departments
+2021-01-10 05:44:52.822 | INFO     | utils:read_config:89 - config.json read successfully
+2021-01-10 05:45:20.861 | INFO     | __main__:<module>:86 - Welcome! This is useful for loading file into redshift
+2021-01-10 05:45:20.876 | INFO     | __main__:main:78 - Process of loading file to Redshift started successfully
+2021-01-10 05:45:20.876 | INFO     | utils:read_table_details:22 - tbl_details.yaml read completed. Details loaded for section departments
+2021-01-10 05:45:20.876 | INFO     | utils:read_col_specs:40 - Column Specification for Fixed width is shown below {'ID': 4, 'DEPT': 21, 'AMOUNT': 5, 'AMOUNT1': 4}
+2021-01-10 05:45:20.876 | INFO     | utils:read_table_details:22 - tbl_details.yaml read completed. Details loaded for section departments
+2021-01-10 05:45:20.892 | INFO     | __main__:read_fixed_width:37 - Data frame after reading first 5 rows is shown below    ID             DEPT  AMOUNT  AMOUNT1
+0  20        Marketing   201.0      180
+1  30       Purchasing   114.0      170
+2  40  Human Resources   203.0      240
+3  50         Shipping   121.0      150
+4  60               IT   103.0      140
+2021-01-10 05:45:20.892 | INFO     | utils:read_table_details:22 - tbl_details.yaml read completed. Details loaded for section departments
+2021-01-10 05:45:20.892 | INFO     | utils:read_config:89 - config.json read successfully
+2021-01-10 05:45:33.244 | INFO     | __main__:<module>:86 - Welcome! This is useful for loading file into redshift
+2021-01-10 05:45:33.244 | INFO     | __main__:main:78 - Process of loading file to Redshift started successfully
+2021-01-10 05:45:33.244 | INFO     | utils:read_table_details:22 - tbl_details.yaml read completed. Details loaded for section departments
+2021-01-10 05:45:33.259 | INFO     | utils:read_col_specs:40 - Column Specification for Fixed width is shown below {'ID': 4, 'DEPT': 21, 'AMOUNT': 5, 'AMOUNT1': 4}
+2021-01-10 05:45:33.259 | INFO     | utils:read_table_details:22 - tbl_details.yaml read completed. Details loaded for section departments
+2021-01-10 05:45:33.275 | INFO     | __main__:read_fixed_width:37 - Data frame after reading first 5 rows is shown below    ID             DEPT  AMOUNT  AMOUNT1
+0  20        Marketing   201.0      180
+1  30       Purchasing   114.0      170
+2  40  Human Resources   203.0      240
+3  50         Shipping   121.0      150
+4  60               IT   103.0      140
+2021-01-10 05:45:33.275 | INFO     | utils:read_table_details:22 - tbl_details.yaml read completed. Details loaded for section departments
+2021-01-10 05:45:33.275 | INFO     | utils:read_config:89 - config.json read successfully

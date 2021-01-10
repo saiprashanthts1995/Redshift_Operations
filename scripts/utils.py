@@ -8,6 +8,7 @@ from datetime import datetime
 import sys
 import pandas as pd
 import yaml
+import psycopg2
 
 
 def read_table_details(log, section):
@@ -102,6 +103,22 @@ def udf_log(log_name):
                rotation="10 days",
                level="INFO")
     return logger
+
+
+def redshift_connection(section, log):
+    """
+    This is used to create connection to redshift using pscyopg2 package
+    :param section:
+    :param log:
+    :return:
+    """
+    config = read_config(section, log)
+    connection = psycopg2.connect(host=config['host'],
+                                  port=config['port'],
+                                  database=config['db_name'],
+                                  username=config['user'],
+                                  password=config['password'])
+    return connection
 
 
 if __name__ == "__main__":
