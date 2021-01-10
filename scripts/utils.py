@@ -10,10 +10,9 @@ import pandas as pd
 import yaml
 
 
-def read_table_details(table_detail_path, log, section):
+def read_table_details(log, section):
     """
     This UDF is used to read the table details of the section which we wish to load
-    :param table_detail_path:
     :param log:
     :param section:
     :return:
@@ -21,18 +20,19 @@ def read_table_details(table_detail_path, log, section):
     with open('../config/tbl_details.yaml') as f:
         tbl_details = yaml.load(f)
     log.info('tbl_details.yaml read completed. Details loaded for section {}'.format(section))
-    print(tbl_details)
     return tbl_details['table_details'][section]
 
 
 def read_col_specs(section, log):
     """
     This is used to read config of col specification of fixed width file
-    :param col_spec_file_name:
+    :param section:
     :param log:
     :return:
     """
-    with open("../config/{}".format(col_spec_file_name)) as file:
+    tbl_details = read_table_details(log, section)
+    col_spec_file_name = tbl_details['specification_name']
+    with open("{}".format(col_spec_file_name)) as file:
         col_spec_content = json.load(file)
     col_df = pd.DataFrame(data=col_spec_content.items(), columns=['name', 'widths'])
     col_name = col_df['name'].values.tolist()
@@ -75,14 +75,16 @@ def udf_exception(main_method):
     return wrapper
 
 
-def read_config(config_file_name, log, section):
+def read_config(section, log):
     """
     This UDF is used to read the config details of redshift
-    :param config_file_name:
+    :param section:
     :param log:
     :return:
     """
-    config_path = open("../config/{}".format(config_file_name))
+    tbl_details = read_table_details(log, section)
+    config_name = tbl_details['config_name']
+    config_path = open("{}".format(config_name))
     config = json.load(config_path)
     log.info("config.json read successfully")
     config_path.close()
@@ -105,6 +107,7 @@ def udf_log(log_name):
 if __name__ == "__main__":
     log = udf_log('default.log')
     log.info('Welcome! This is useful for loading file into redshift')
-    print(read_table_details('../config/tbl_details.yaml', log, section='departments'))
-    # print(read_col_specs('col_specs_fwf_departments.json', log))
-    # print(read_config("config.json", log))
+    section = 'departments'
+    print(read_table_details(log, section))
+    print(read_col_specs(section, log))
+    print(read_config(section, log))
