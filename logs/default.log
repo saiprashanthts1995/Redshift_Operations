@@ -1,0 +1,71 @@
+2021-01-26 06:42:03.818 | INFO     | __main__:<module>:39 - Welcome! This is useful for loading file into redshift
+2021-01-26 06:42:03.821 | INFO     | utils:read_table_details:24 - tbl_details.yaml read completed. Details loaded for section COPY
+2021-01-26 06:42:22.350 | INFO     | __main__:<module>:40 - Welcome! This is useful for loading file into redshift
+2021-01-26 06:42:22.359 | INFO     | utils:read_table_details:24 - tbl_details.yaml read completed. Details loaded for section COPY
+2021-01-26 06:42:52.354 | INFO     | __main__:<module>:40 - Welcome! This is useful for loading file into redshift
+2021-01-26 06:42:52.354 | INFO     | utils:read_table_details:24 - tbl_details.yaml read completed. Details loaded for section COPY
+2021-01-26 06:55:56.211 | INFO     | __main__:<module>:72 - Welcome! This is useful for loading file into redshift
+2021-01-26 06:55:56.211 | INFO     | utils:read_table_details:24 - tbl_details.yaml read completed. Details loaded for section COPY
+2021-01-26 06:55:56.211 | INFO     | __main__:copy_command:33 - Generated the copy command
+2021-01-26 06:55:56.211 | INFO     | __main__:copy_command:34 - Command is as follows
+2021-01-26 06:56:10.698 | INFO     | __main__:<module>:72 - Welcome! This is useful for loading file into redshift
+2021-01-26 06:56:10.698 | INFO     | utils:read_table_details:24 - tbl_details.yaml read completed. Details loaded for section COPY
+2021-01-26 06:56:10.698 | INFO     | __main__:copy_command:33 - Generated the copy command
+2021-01-26 06:56:10.705 | INFO     | __main__:copy_command:34 - Command is as follows
+2021-01-26 06:56:10.707 | INFO     | __main__:copy_command:35 - COPY practice.customers
+FROM 's3://sai-practice-redshift/data/customers.txt' iam_role ''
+DELIMITER ',' IGNOREHEADER 1 region 'us-east-1'
+2021-01-26 06:56:27.577 | INFO     | __main__:<module>:72 - Welcome! This is useful for loading file into redshift
+2021-01-26 06:56:27.592 | INFO     | utils:read_table_details:24 - tbl_details.yaml read completed. Details loaded for section COPY
+2021-01-26 06:56:27.592 | INFO     | __main__:copy_command:33 - Generated the copy command
+2021-01-26 06:56:27.592 | INFO     | __main__:copy_command:34 - Command is as follows
+2021-01-26 06:56:27.592 | INFO     | __main__:copy_command:35 - COPY practice.customers
+FROM 's3://sai-practice-redshift/data/customers.txt' iam_role ''
+DELIMITER ',' IGNOREHEADER 1 region 'us-east-1'
+2021-01-26 07:18:07.762 | INFO     | __main__:<module>:62 - Welcome! This is useful for loading file into redshift
+2021-01-26 07:18:07.763 | INFO     | utils:read_table_details:24 - tbl_details.yaml read completed. Details loaded for section CREATE_EXTERNAL
+2021-01-26 07:19:07.478 | INFO     | __main__:<module>:62 - Welcome! This is useful for loading file into redshift
+2021-01-26 07:19:07.486 | INFO     | utils:read_table_details:24 - tbl_details.yaml read completed. Details loaded for section CREATE_EXTERNAL
+2021-01-26 07:20:00.567 | INFO     | __main__:<module>:63 - Welcome! This is useful for loading file into redshift
+2021-01-26 07:20:00.572 | INFO     | utils:read_table_details:24 - tbl_details.yaml read completed. Details loaded for section CREATE_EXTERNAL
+2021-01-26 07:20:55.021 | INFO     | __main__:<module>:64 - Welcome! This is useful for loading file into redshift
+2021-01-26 07:20:55.034 | INFO     | utils:read_table_details:24 - tbl_details.yaml read completed. Details loaded for section CREATE_EXTERNAL
+2021-01-26 07:20:55.034 | INFO     | __main__:create_command:32 - Command is as follows
+2021-01-26 07:20:55.034 | INFO     | __main__:create_command:33 - CREATE EXTERNAL SCHEMA 'ext_practice'
+FROM DATA CATALOG DATABASE `` region 'us-east-1' iam_role ''
+2021-01-26 07:20:55.034 | INFO     | __main__:main:59 - create_external_schema_command command ran fine!
+2021-01-26 07:20:55.048 | INFO     | utils:read_table_details:24 - tbl_details.yaml read completed. Details loaded for section CREATE_EXTERNAL
+2021-01-26 07:20:55.048 | INFO     | __main__:create_command:32 - Command is as follows
+2021-01-26 07:20:55.048 | INFO     | __main__:create_command:33 - CREATE EXTERNAL TABLE
+2021-01-26 07:20:55.048 | INFO     | __main__:main:59 - create_external_table_command command ran fine!
+2021-01-26 07:21:17.447 | INFO     | __main__:<module>:61 - Welcome! This is useful for loading file into redshift
+2021-01-26 07:21:17.463 | INFO     | utils:read_table_details:24 - tbl_details.yaml read completed. Details loaded for section CREATE_EXTERNAL
+2021-01-26 07:21:17.463 | INFO     | __main__:create_command:29 - Command is as follows
+2021-01-26 07:21:17.463 | INFO     | __main__:create_command:30 - CREATE EXTERNAL SCHEMA 'ext_practice'
+FROM DATA CATALOG DATABASE `` region 'us-east-1' iam_role ''
+2021-01-26 07:21:17.463 | INFO     | __main__:main:56 - create_external_schema_command command ran fine!
+2021-01-26 07:21:17.463 | INFO     | utils:read_table_details:24 - tbl_details.yaml read completed. Details loaded for section CREATE_EXTERNAL
+2021-01-26 07:21:17.463 | INFO     | __main__:create_command:29 - Command is as follows
+2021-01-26 07:21:17.463 | INFO     | __main__:create_command:30 - CREATE EXTERNAL TABLE
+2021-01-26 07:21:17.463 | INFO     | __main__:main:56 - create_external_table_command command ran fine!
+2021-01-26 07:39:17.396 | INFO     | __main__:<module>:51 - Welcome! This is useful for loading file into redshift
+2021-01-26 07:41:42.526 | INFO     | __main__:<module>:55 - Welcome! This is useful for loading file into redshift
+2021-01-26 07:43:44.870 | INFO     | __main__:<module>:57 - Welcome! This is useful for loading file into redshift
+2021-01-26 07:43:44.878 | INFO     | utils:read_table_details:24 - tbl_details.yaml read completed. Details loaded for section COPY
+2021-01-26 07:43:44.881 | INFO     | run_copy_command:copy_command:34 - Generated the copy command
+2021-01-26 07:43:44.882 | INFO     | run_copy_command:copy_command:35 - Command is as follows
+2021-01-26 07:43:44.885 | INFO     | run_copy_command:copy_command:36 - COPY practice.customers
+FROM 's3://sai-practice-redshift/data/customers.txt' iam_role ''
+DELIMITER ',' IGNOREHEADER 1 region 'us-east-1'
+2021-01-26 07:43:44.890 | INFO     | utils:read_table_details:24 - tbl_details.yaml read completed. Details loaded for section COPY
+2021-01-26 07:43:44.896 | INFO     | utils:read_config:90 - config.json read successfully
+2021-01-26 07:45:16.227 | INFO     | __main__:<module>:59 - Welcome! This is useful for loading file into redshift
+2021-01-26 07:45:16.233 | INFO     | __main__:run:22 - Process Started for the section COPY and for the table
+2021-01-26 07:45:16.239 | INFO     | utils:read_table_details:24 - tbl_details.yaml read completed. Details loaded for section COPY
+2021-01-26 07:45:16.242 | INFO     | run_copy_command:copy_command:34 - Generated the copy command
+2021-01-26 07:45:16.243 | INFO     | run_copy_command:copy_command:35 - Command is as follows
+2021-01-26 07:45:16.246 | INFO     | run_copy_command:copy_command:36 - COPY practice.customers
+FROM 's3://sai-practice-redshift/data/customers.txt' iam_role ''
+DELIMITER ',' IGNOREHEADER 1 region 'us-east-1'
+2021-01-26 07:45:16.250 | INFO     | utils:read_table_details:24 - tbl_details.yaml read completed. Details loaded for section COPY
+2021-01-26 07:45:16.255 | INFO     | utils:read_config:90 - config.json read successfully
