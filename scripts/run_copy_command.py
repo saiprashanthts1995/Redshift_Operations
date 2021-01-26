@@ -51,7 +51,7 @@ class RunCopy:
         finally:
             connection.commit()
             connection.close()
-        self.log.info('Connection established successfully')
+        self.log.info('{} executed'.format(sqlparse.format(command, reindent=True, keyword_case='upper')))
         return True
 
     def main(self):
