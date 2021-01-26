@@ -29,7 +29,7 @@ Table_Details:
       external_s3_file_path: "s3://sai-practice-redshift/data/iris.txt"
       ARN: ""
       region: "us-east-1"
-      create_external_schema_command: "create external schema '{ext_schema}' from data catalog database `{}` region
-      '{region}' iam_role '{ARN}'"
-      create_external_tablecommand: "create external table "
+      create_external_schema_command: "create external schema '{ext_schema}' from data catalog database `{database}`
+       region '{region}' iam_role '{ARN}'"
+      create_external_table_command: "create external table "
 
