@@ -55,7 +55,6 @@ def timeit(main_method):
         result = main_method(*args, **kwargs)
         end_time = datetime.now()
         print("Total time taken is {}".format(end_time - start_time))
-        log.info('Total time taken is {}'.format(end_time - start_time))
         return result
     return wrapper
 
@@ -72,8 +71,6 @@ def udf_exception(main_method):
             return result
         except Exception as e:
             print(e)
-            log.exception("Following exception occurred {}".format(e))
-            log.warning("Please correct and re-run the process")
             sys.exit(1)
     return wrapper
 
