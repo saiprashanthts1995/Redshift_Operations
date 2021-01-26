@@ -1,29 +1,35 @@
-table_details:
-  departments:
-    table_name: "departments"
-    schema: "practice"
-    file_name: "../data/departments_fixed_width_file.txt"
-    config_name: "../config/config.json"
-    specification_name: "../data/col_specs_fwf_departments.json"
+Table_Details:
+  FIXED_WIDTH:
+    Departments:
+      table_name: "departments"
+      schema: "practice"
+      file_name: "../data/departments_fixed_width_file.txt"
+      config_name: "../config/config.json"
+      specification_name: "../data/col_specs_fwf_departments.json"
 
-  customers:
-    table_name: "customers"
-    schema: "practice"
-    config_name: "../config/config.json"
-    s3_file_path: "s3://sai-practice-redshift/data/customers.txt"
-    ARN: ""
-    header_count: 1
-    region: "us-east-1"
-    COPY_COMMAND: "COPY {schema}.{table_name} FROM '{s3_file_path}' iam_role '{ARN}' delimiter '{delimiter}' IGNOREHEADER {header_count} region '{region}'"
+  COPY:
+    Customers:
+      table_name: "customers"
+      schema: "practice"
+      config_name: "../config/config.json"
+      s3_file_path: "s3://sai-practice-redshift/data/customers.txt"
+      ARN: ""
+      header_count: 1
+      region: "us-east-1"
+      delimiter: ","
+      copy_command: "COPY {schema}.{table_name} FROM '{s3_file_path}' iam_role '{ARN}' delimiter '{delimiter}'
+      IGNOREHEADER {header_count} region '{region}'"
 
-  iris:
-    ext_table_name: "iris"
-    ext_schema: "ext_practice"
-    config_name: "../config/config.json"
-    database: ""
-    external_s3_file_path: "s3://sai-practice-redshift/data/iris.txt"
-    ARN: ""
-    region: "us-east-1"
-    create_external_Schema_statement: "create external schema '{ext_schema}' from data catalog database `{}` region '{region}' iam_role '{ARN}'"
-    create_external_table_statement: "create external table "
+  CREATE_EXTERNAL:
+    Iris:
+      ext_table_name: "iris"
+      ext_schema: "ext_practice"
+      config_name: "../config/config.json"
+      database: ""
+      external_s3_file_path: "s3://sai-practice-redshift/data/iris.txt"
+      ARN: ""
+      region: "us-east-1"
+      create_external_schema_command: "create external schema '{ext_schema}' from data catalog database `{}` region
+      '{region}' iam_role '{ARN}'"
+      create_external_tablecommand: "create external table "
 
