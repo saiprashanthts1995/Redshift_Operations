@@ -114,11 +114,11 @@ def redshift_connection(section, table_name, log):
     :return:
     """
     config = read_config(section, table_name, log)
-    connection = psycopg2.connect(host=config['host'],
-                                  port=config['port'],
-                                  database=config['db_name'],
-                                  username=config['user'],
-                                  password=config['password'])
+    connection = psycopg2.connect(host=config['Redshift_Dev']['host'],
+                                  port=config['Redshift_Dev']['port'],
+                                  database=config['Redshift_Dev']['dbname'],
+                                  user=config['Redshift_Dev']['user'],
+                                  password=config['Redshift_Dev']['password'])
     return connection
 
 

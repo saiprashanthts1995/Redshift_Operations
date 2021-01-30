@@ -1,9 +1,9 @@
 {
     "Redshift_Dev": {
-        "user": "dummy",
-        "password": "dummy",
-        "host" : "dummy",
-        "port" : 5432,
-        "dbname" : "dummy"
+        "user": "awsuser",
+        "password": "Abcdefgh123",
+        "host" : "redshift-cluster-1.redshift.amazonaws.com",
+        "port" : 5439,
+        "dbname" : "dev"
     }
 }

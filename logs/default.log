@@ -69,3 +69,461 @@ FROM 's3://sai-practice-redshift/data/customers.txt' iam_role ''
 DELIMITER ',' IGNOREHEADER 1 region 'us-east-1'
 2021-01-26 07:45:16.250 | INFO     | utils:read_table_details:24 - tbl_details.yaml read completed. Details loaded for section COPY
 2021-01-26 07:45:16.255 | INFO     | utils:read_config:90 - config.json read successfully
+2021-01-30 20:16:55.665 | INFO     | __main__:<module>:59 - Welcome! This is useful for loading file into redshift
+2021-01-30 20:16:55.666 | INFO     | __main__:run:22 - Process Started for the section FIXED_WIDTH and for the table
+2021-01-30 20:16:55.666 | INFO     | load_fwf_file:main:76 - Process of loading file to Redshift started successfully
+2021-01-30 20:16:55.672 | INFO     | utils:read_table_details:24 - tbl_details.yaml read completed. Details loaded for section FIXED_WIDTH
+2021-01-30 20:16:55.674 | INFO     | utils:read_col_specs:43 - Column Specification for Fixed width is shown below {'ID': 4, 'DEPT': 21, 'AMOUNT': 5, 'AMOUNT1': 4}
+2021-01-30 20:16:55.679 | INFO     | utils:read_table_details:24 - tbl_details.yaml read completed. Details loaded for section FIXED_WIDTH
+2021-01-30 20:16:55.693 | INFO     | load_fwf_file:read_fixed_width:39 - Data frame after reading first 5 rows is shown below    ID             DEPT  AMOUNT  AMOUNT1
+0  20        Marketing   201.0      180
+1  30       Purchasing   114.0      170
+2  40  Human Resources   203.0      240
+3  50         Shipping   121.0      150
+4  60               IT   103.0      140
+2021-01-30 20:16:55.698 | INFO     | utils:read_table_details:24 - tbl_details.yaml read completed. Details loaded for section FIXED_WIDTH
+2021-01-30 20:16:55.699 | INFO     | utils:read_config:90 - config.json read successfully
+2021-01-30 20:25:20.572 | INFO     | __main__:<module>:59 - Welcome! This is useful for loading file into redshift
+2021-01-30 20:25:20.573 | INFO     | __main__:run:22 - Process Started for the section FIXED_WIDTH and for the table
+2021-01-30 20:25:20.573 | INFO     | load_fwf_file:main:76 - Process of loading file to Redshift started successfully
+2021-01-30 20:25:20.579 | INFO     | utils:read_table_details:24 - tbl_details.yaml read completed. Details loaded for section FIXED_WIDTH
+2021-01-30 20:25:20.581 | INFO     | utils:read_col_specs:43 - Column Specification for Fixed width is shown below {'ID': 4, 'DEPT': 21, 'AMOUNT': 5, 'AMOUNT1': 4}
+2021-01-30 20:25:20.586 | INFO     | utils:read_table_details:24 - tbl_details.yaml read completed. Details loaded for section FIXED_WIDTH
+2021-01-30 20:25:20.600 | INFO     | load_fwf_file:read_fixed_width:39 - Data frame after reading first 5 rows is shown below    ID             DEPT  AMOUNT  AMOUNT1
+0  20        Marketing   201.0      180
+1  30       Purchasing   114.0      170
+2  40  Human Resources   203.0      240
+3  50         Shipping   121.0      150
+4  60               IT   103.0      140
+2021-01-30 20:25:20.605 | INFO     | utils:read_table_details:24 - tbl_details.yaml read completed. Details loaded for section FIXED_WIDTH
+2021-01-30 20:25:20.606 | INFO     | utils:read_config:90 - config.json read successfully
+2021-01-30 20:28:19.240 | INFO     | __main__:<module>:59 - Welcome! This is useful for loading file into redshift
+2021-01-30 20:28:19.241 | INFO     | __main__:run:22 - Process Started for the section FIXED_WIDTH and for the table
+2021-01-30 20:28:19.241 | INFO     | load_fwf_file:main:76 - Process of loading file to Redshift started successfully
+2021-01-30 20:28:19.247 | INFO     | utils:read_table_details:24 - tbl_details.yaml read completed. Details loaded for section FIXED_WIDTH
+2021-01-30 20:28:19.249 | INFO     | utils:read_col_specs:43 - Column Specification for Fixed width is shown below {'ID': 4, 'DEPT': 21, 'AMOUNT': 5, 'AMOUNT1': 4}
+2021-01-30 20:28:19.254 | INFO     | utils:read_table_details:24 - tbl_details.yaml read completed. Details loaded for section FIXED_WIDTH
+2021-01-30 20:28:19.267 | INFO     | load_fwf_file:read_fixed_width:39 - Data frame after reading first 5 rows is shown below    ID             DEPT  AMOUNT  AMOUNT1
+0  20        Marketing   201.0      180
+1  30       Purchasing   114.0      170
+2  40  Human Resources   203.0      240
+3  50         Shipping   121.0      150
+4  60               IT   103.0      140
+2021-01-30 20:28:19.273 | INFO     | utils:read_table_details:24 - tbl_details.yaml read completed. Details loaded for section FIXED_WIDTH
+2021-01-30 20:28:19.273 | INFO     | utils:read_config:90 - config.json read successfully
+2021-01-30 20:29:21.841 | INFO     | __main__:<module>:59 - Welcome! This is useful for loading file into redshift
+2021-01-30 20:29:21.841 | INFO     | __main__:run:22 - Process Started for the section FIXED_WIDTH and for the table
+2021-01-30 20:29:21.842 | INFO     | load_fwf_file:main:76 - Process of loading file to Redshift started successfully
+2021-01-30 20:29:21.847 | INFO     | utils:read_table_details:24 - tbl_details.yaml read completed. Details loaded for section FIXED_WIDTH
+2021-01-30 20:29:21.850 | INFO     | utils:read_col_specs:43 - Column Specification for Fixed width is shown below {'ID': 4, 'DEPT': 21, 'AMOUNT': 5, 'AMOUNT1': 4}
+2021-01-30 20:29:21.855 | INFO     | utils:read_table_details:24 - tbl_details.yaml read completed. Details loaded for section FIXED_WIDTH
+2021-01-30 20:29:21.868 | INFO     | load_fwf_file:read_fixed_width:39 - Data frame after reading first 5 rows is shown below    ID             DEPT  AMOUNT  AMOUNT1
+0  20        Marketing   201.0      180
+1  30       Purchasing   114.0      170
+2  40  Human Resources   203.0      240
+3  50         Shipping   121.0      150
+4  60               IT   103.0      140
+2021-01-30 20:29:21.874 | INFO     | utils:read_table_details:24 - tbl_details.yaml read completed. Details loaded for section FIXED_WIDTH
+2021-01-30 20:29:21.874 | INFO     | utils:read_config:90 - config.json read successfully
+2021-01-30 20:29:21.945 | INFO     | load_fwf_file:create_db_connection:51 - Connection to Redshift has got successfully connected
+2021-01-30 20:29:21.951 | INFO     | utils:read_table_details:24 - tbl_details.yaml read completed. Details loaded for section FIXED_WIDTH
+2021-01-30 20:31:21.455 | INFO     | __main__:<module>:59 - Welcome! This is useful for loading file into redshift
+2021-01-30 20:31:21.456 | INFO     | __main__:run:22 - Process Started for the section FIXED_WIDTH and for the table
+2021-01-30 20:31:21.456 | INFO     | load_fwf_file:main:76 - Process of loading file to Redshift started successfully
+2021-01-30 20:31:21.462 | INFO     | utils:read_table_details:24 - tbl_details.yaml read completed. Details loaded for section FIXED_WIDTH
+2021-01-30 20:31:21.464 | INFO     | utils:read_col_specs:43 - Column Specification for Fixed width is shown below {'ID': 4, 'DEPT': 21, 'AMOUNT': 5, 'AMOUNT1': 4}
+2021-01-30 20:31:21.469 | INFO     | utils:read_table_details:24 - tbl_details.yaml read completed. Details loaded for section FIXED_WIDTH
+2021-01-30 20:31:21.483 | INFO     | load_fwf_file:read_fixed_width:39 - Data frame after reading first 5 rows is shown below    ID             DEPT  AMOUNT  AMOUNT1
+0  20        Marketing   201.0      180
+1  30       Purchasing   114.0      170
+2  40  Human Resources   203.0      240
+3  50         Shipping   121.0      150
+4  60               IT   103.0      140
+2021-01-30 20:31:21.488 | INFO     | utils:read_table_details:24 - tbl_details.yaml read completed. Details loaded for section FIXED_WIDTH
+2021-01-30 20:31:21.488 | INFO     | utils:read_config:90 - config.json read successfully
+2021-01-30 20:31:21.576 | INFO     | load_fwf_file:create_db_connection:51 - Connection to Redshift has got successfully connected
+2021-01-30 20:31:21.581 | INFO     | utils:read_table_details:24 - tbl_details.yaml read completed. Details loaded for section FIXED_WIDTH
+2021-01-30 20:42:48.633 | INFO     | __main__:<module>:59 - Welcome! This is useful for loading file into redshift
+2021-01-30 20:42:48.634 | INFO     | __main__:run:22 - Process Started for the section FIXED_WIDTH and for the table
+2021-01-30 20:42:48.634 | INFO     | load_fwf_file:main:77 - Process of loading file to Redshift started successfully
+2021-01-30 20:42:48.640 | INFO     | utils:read_table_details:24 - tbl_details.yaml read completed. Details loaded for section FIXED_WIDTH
+2021-01-30 20:42:48.642 | INFO     | utils:read_col_specs:43 - Column Specification for Fixed width is shown below {'ID': 4, 'DEPT': 21, 'AMOUNT': 5, 'AMOUNT1': 4}
+2021-01-30 20:42:48.647 | INFO     | utils:read_table_details:24 - tbl_details.yaml read completed. Details loaded for section FIXED_WIDTH
+2021-01-30 20:42:48.661 | INFO     | load_fwf_file:read_fixed_width:39 - Data frame after reading first 5 rows is shown below    ID             DEPT  AMOUNT  AMOUNT1
+0  20        Marketing   201.0      180
+1  30       Purchasing   114.0      170
+2  40  Human Resources   203.0      240
+3  50         Shipping   121.0      150
+4  60               IT   103.0      140
+2021-01-30 20:42:48.666 | INFO     | utils:read_table_details:24 - tbl_details.yaml read completed. Details loaded for section FIXED_WIDTH
+2021-01-30 20:42:48.667 | INFO     | utils:read_config:90 - config.json read successfully
+2021-01-30 20:42:48.745 | INFO     | load_fwf_file:create_db_connection:51 - Connection to Redshift has got successfully connected
+2021-01-30 20:42:48.750 | INFO     | utils:read_table_details:24 - tbl_details.yaml read completed. Details loaded for section FIXED_WIDTH
+2021-01-30 20:43:05.406 | INFO     | load_fwf_file:load_into_table:69 - Data loaded to table departments completed successfully
+2021-01-30 20:43:05.406 | INFO     | __main__:run:31 - Process Completed for the section FIXED_WIDTH and for the table
+2021-01-30 20:47:18.934 | INFO     | __main__:<module>:59 - Welcome! This is useful for loading file into redshift
+2021-01-30 20:47:18.935 | INFO     | __main__:run:22 - Process Started for the section COPY and for the table
+2021-01-30 20:47:18.941 | INFO     | utils:read_table_details:24 - tbl_details.yaml read completed. Details loaded for section COPY
+2021-01-30 20:47:18.941 | INFO     | run_copy_command:copy_command:34 - Generated the copy command
+2021-01-30 20:47:18.942 | INFO     | run_copy_command:copy_command:35 - Command is as follows
+2021-01-30 20:47:18.944 | INFO     | run_copy_command:copy_command:36 - COPY practice.customers
+FROM 's3://sai-practice-redshift/data/customers.txt' iam_role ''
+DELIMITER ',' IGNOREHEADER 1 region 'us-east-1'
+2021-01-30 20:47:18.950 | INFO     | utils:read_table_details:24 - tbl_details.yaml read completed. Details loaded for section COPY
+2021-01-30 20:47:18.950 | INFO     | utils:read_config:90 - config.json read successfully
+2021-01-30 20:48:55.092 | INFO     | __main__:<module>:59 - Welcome! This is useful for loading file into redshift
+2021-01-30 20:48:55.092 | INFO     | __main__:run:22 - Process Started for the section COPY and for the table
+2021-01-30 20:48:55.098 | INFO     | utils:read_table_details:24 - tbl_details.yaml read completed. Details loaded for section COPY
+2021-01-30 20:48:55.099 | INFO     | run_copy_command:copy_command:34 - Generated the copy command
+2021-01-30 20:48:55.099 | INFO     | run_copy_command:copy_command:35 - Command is as follows
+2021-01-30 20:48:55.102 | INFO     | run_copy_command:copy_command:36 - COPY practice.customers
+FROM 's3://sai-practice-redshift/data/customers.txt' iam_role ''
+DELIMITER ',' IGNOREHEADER 1 region 'us-east-1'
+2021-01-30 20:48:55.107 | INFO     | utils:read_table_details:24 - tbl_details.yaml read completed. Details loaded for section COPY
+2021-01-30 20:48:55.107 | INFO     | utils:read_config:90 - config.json read successfully
+2021-01-30 20:50:21.741 | INFO     | __main__:<module>:59 - Welcome! This is useful for loading file into redshift
+2021-01-30 20:50:21.742 | INFO     | __main__:run:22 - Process Started for the section COPY and for the table
+2021-01-30 20:50:21.748 | INFO     | utils:read_table_details:24 - tbl_details.yaml read completed. Details loaded for section COPY
+2021-01-30 20:50:21.748 | INFO     | run_copy_command:copy_command:34 - Generated the copy command
+2021-01-30 20:50:21.749 | INFO     | run_copy_command:copy_command:35 - Command is as follows
+2021-01-30 20:50:21.751 | INFO     | run_copy_command:copy_command:36 - COPY practice.customers
+FROM 's3://sai-practice-redshift/data/customers.txt' iam_role ''
+DELIMITER ',' IGNOREHEADER 1 region 'us-east-1'
+2021-01-30 20:50:21.757 | INFO     | utils:read_table_details:24 - tbl_details.yaml read completed. Details loaded for section COPY
+2021-01-30 20:50:21.757 | INFO     | utils:read_config:90 - config.json read successfully
+2021-01-30 20:51:02.874 | INFO     | __main__:<module>:59 - Welcome! This is useful for loading file into redshift
+2021-01-30 20:51:02.874 | INFO     | __main__:run:22 - Process Started for the section COPY and for the table
+2021-01-30 20:51:02.880 | INFO     | utils:read_table_details:24 - tbl_details.yaml read completed. Details loaded for section COPY
+2021-01-30 20:51:02.881 | INFO     | run_copy_command:copy_command:34 - Generated the copy command
+2021-01-30 20:51:02.881 | INFO     | run_copy_command:copy_command:35 - Command is as follows
+2021-01-30 20:51:02.884 | INFO     | run_copy_command:copy_command:36 - COPY practice.customers
+FROM 's3://sai-practice-redshift/data/customers.txt' iam_role ''
+DELIMITER ',' IGNOREHEADER 1 region 'us-east-1'
+2021-01-30 20:51:02.889 | INFO     | utils:read_table_details:24 - tbl_details.yaml read completed. Details loaded for section COPY
+2021-01-30 20:51:02.890 | INFO     | utils:read_config:90 - config.json read successfully
+2021-01-30 20:51:22.956 | INFO     | __main__:<module>:59 - Welcome! This is useful for loading file into redshift
+2021-01-30 20:51:22.957 | INFO     | __main__:run:22 - Process Started for the section COPY and for the table
+2021-01-30 20:51:22.962 | INFO     | utils:read_table_details:24 - tbl_details.yaml read completed. Details loaded for section COPY
+2021-01-30 20:51:22.963 | INFO     | run_copy_command:copy_command:34 - Generated the copy command
+2021-01-30 20:51:22.963 | INFO     | run_copy_command:copy_command:35 - Command is as follows
+2021-01-30 20:51:22.966 | INFO     | run_copy_command:copy_command:36 - COPY practice.customers
+FROM 's3://sai-practice-redshift/data/customers.txt' iam_role ''
+DELIMITER ',' IGNOREHEADER 1 region 'us-east-1'
+2021-01-30 20:51:22.971 | INFO     | utils:read_table_details:24 - tbl_details.yaml read completed. Details loaded for section COPY
+2021-01-30 20:51:22.971 | INFO     | utils:read_config:90 - config.json read successfully
+2021-01-30 20:51:56.583 | INFO     | __main__:<module>:59 - Welcome! This is useful for loading file into redshift
+2021-01-30 20:51:56.584 | INFO     | __main__:run:22 - Process Started for the section COPY and for the table
+2021-01-30 20:51:56.590 | INFO     | utils:read_table_details:24 - tbl_details.yaml read completed. Details loaded for section COPY
+2021-01-30 20:51:56.590 | INFO     | run_copy_command:copy_command:34 - Generated the copy command
+2021-01-30 20:51:56.590 | INFO     | run_copy_command:copy_command:35 - Command is as follows
+2021-01-30 20:51:56.593 | INFO     | run_copy_command:copy_command:36 - COPY practice.customers
+FROM 's3://sai-practice-redshift/data/customers.txt' iam_role ''
+DELIMITER ',' IGNOREHEADER 1 region 'us-east-1'
+2021-01-30 20:51:56.598 | INFO     | utils:read_table_details:24 - tbl_details.yaml read completed. Details loaded for section COPY
+2021-01-30 20:51:56.599 | INFO     | utils:read_config:90 - config.json read successfully
+2021-01-30 20:52:24.452 | INFO     | __main__:<module>:59 - Welcome! This is useful for loading file into redshift
+2021-01-30 20:52:24.453 | INFO     | __main__:run:22 - Process Started for the section COPY and for the table
+2021-01-30 20:52:24.458 | INFO     | utils:read_table_details:24 - tbl_details.yaml read completed. Details loaded for section COPY
+2021-01-30 20:52:24.459 | INFO     | run_copy_command:copy_command:34 - Generated the copy command
+2021-01-30 20:52:24.459 | INFO     | run_copy_command:copy_command:35 - Command is as follows
+2021-01-30 20:52:24.462 | INFO     | run_copy_command:copy_command:36 - COPY practice.customers
+FROM 's3://sai-practice-redshift/data/customers.txt' iam_role ''
+DELIMITER ',' IGNOREHEADER 1 region 'us-east-1'
+2021-01-30 20:52:24.467 | INFO     | utils:read_table_details:24 - tbl_details.yaml read completed. Details loaded for section COPY
+2021-01-30 20:52:24.467 | INFO     | utils:read_config:90 - config.json read successfully
+2021-01-30 20:53:13.230 | INFO     | __main__:<module>:59 - Welcome! This is useful for loading file into redshift
+2021-01-30 20:53:13.230 | INFO     | __main__:run:22 - Process Started for the section COPY and for the table
+2021-01-30 20:53:13.236 | INFO     | utils:read_table_details:24 - tbl_details.yaml read completed. Details loaded for section COPY
+2021-01-30 20:53:13.237 | INFO     | run_copy_command:copy_command:34 - Generated the copy command
+2021-01-30 20:53:13.237 | INFO     | run_copy_command:copy_command:35 - Command is as follows
+2021-01-30 20:53:13.240 | INFO     | run_copy_command:copy_command:36 - COPY practice.customers
+FROM 's3://sai-practice-redshift/data/customers.txt' iam_role ''
+DELIMITER ',' IGNOREHEADER 1 region 'us-east-1'
+2021-01-30 20:53:13.245 | INFO     | utils:read_table_details:24 - tbl_details.yaml read completed. Details loaded for section COPY
+2021-01-30 20:53:13.245 | INFO     | utils:read_config:90 - config.json read successfully
+2021-01-30 20:53:48.660 | INFO     | __main__:<module>:59 - Welcome! This is useful for loading file into redshift
+2021-01-30 20:53:48.660 | INFO     | __main__:run:22 - Process Started for the section COPY and for the table
+2021-01-30 20:53:48.666 | INFO     | utils:read_table_details:24 - tbl_details.yaml read completed. Details loaded for section COPY
+2021-01-30 20:53:48.667 | INFO     | run_copy_command:copy_command:34 - Generated the copy command
+2021-01-30 20:53:48.667 | INFO     | run_copy_command:copy_command:35 - Command is as follows
+2021-01-30 20:53:48.670 | INFO     | run_copy_command:copy_command:36 - COPY practice.customers
+FROM 's3://sai-practice-redshift/data/customers.txt' iam_role ''
+DELIMITER ',' IGNOREHEADER 1 region 'us-east-1'
+2021-01-30 20:53:48.675 | INFO     | utils:read_table_details:24 - tbl_details.yaml read completed. Details loaded for section COPY
+2021-01-30 20:53:48.675 | INFO     | utils:read_config:90 - config.json read successfully
+2021-01-30 20:53:48.726 | INFO     | run_copy_command:run_command:54 - COPY practice.customers
+FROM 's3://sai-practice-redshift/data/customers.txt' iam_role ''
+DELIMITER ',' IGNOREHEADER 1 region 'us-east-1' executed
+2021-01-30 20:53:48.726 | INFO     | run_copy_command:main:66 - Copy command executed successfully
+2021-01-30 20:53:48.727 | INFO     | __main__:run:31 - Process Completed for the section COPY and for the table
+2021-01-30 21:07:59.257 | INFO     | __main__:<module>:59 - Welcome! This is useful for loading file into redshift
+2021-01-30 21:07:59.257 | INFO     | __main__:run:22 - Process Started for the section COPY and for the table
+2021-01-30 21:07:59.263 | INFO     | utils:read_table_details:24 - tbl_details.yaml read completed. Details loaded for section COPY
+2021-01-30 21:07:59.264 | INFO     | run_copy_command:copy_command:34 - Generated the copy command
+2021-01-30 21:07:59.264 | INFO     | run_copy_command:copy_command:35 - Command is as follows
+2021-01-30 21:07:59.267 | INFO     | run_copy_command:copy_command:36 - COPY practice.customers
+FROM 's3://sai-learn-airflow/data/customers.txt' iam_role 'arn:aws:iam::413645087273:role/aws-service-role/redshift.amazonaws.com/AWSServiceRoleForRedshift'
+DELIMITER ',' IGNOREHEADER 1 region 'us-east-1'
+2021-01-30 21:07:59.272 | INFO     | utils:read_table_details:24 - tbl_details.yaml read completed. Details loaded for section COPY
+2021-01-30 21:07:59.272 | INFO     | utils:read_config:90 - config.json read successfully
+2021-01-30 21:07:59.581 | INFO     | run_copy_command:run_command:54 - COPY practice.customers
+FROM 's3://sai-learn-airflow/data/customers.txt' iam_role 'arn:aws:iam::413645087273:role/aws-service-role/redshift.amazonaws.com/AWSServiceRoleForRedshift'
+DELIMITER ',' IGNOREHEADER 1 region 'us-east-1' executed
+2021-01-30 21:07:59.582 | INFO     | run_copy_command:main:66 - Copy command executed successfully
+2021-01-30 21:07:59.582 | INFO     | __main__:run:31 - Process Completed for the section COPY and for the table
+2021-01-30 21:16:58.916 | INFO     | __main__:<module>:59 - Welcome! This is useful for loading file into redshift
+2021-01-30 21:16:58.917 | INFO     | __main__:run:22 - Process Started for the section COPY and for the table
+2021-01-30 21:16:58.923 | INFO     | utils:read_table_details:24 - tbl_details.yaml read completed. Details loaded for section COPY
+2021-01-30 21:16:58.923 | INFO     | run_copy_command:copy_command:34 - Generated the copy command
+2021-01-30 21:16:58.923 | INFO     | run_copy_command:copy_command:35 - Command is as follows
+2021-01-30 21:16:58.926 | INFO     | run_copy_command:copy_command:36 - COPY practice.customers
+FROM 's3://sai-learn-airflow/data/customers.txt' iam_role 'arn:aws:iam::413645087273:role/aws-service-role/redshift.amazonaws.com/AWSServiceRoleForRedshift'
+DELIMITER ',' IGNOREHEADER 1 region 'us-east-1'
+2021-01-30 21:16:58.931 | INFO     | utils:read_table_details:24 - tbl_details.yaml read completed. Details loaded for section COPY
+2021-01-30 21:16:58.932 | INFO     | utils:read_config:90 - config.json read successfully
+2021-01-30 21:16:59.232 | INFO     | run_copy_command:run_command:54 - COPY practice.customers
+FROM 's3://sai-learn-airflow/data/customers.txt' iam_role 'arn:aws:iam::413645087273:role/aws-service-role/redshift.amazonaws.com/AWSServiceRoleForRedshift'
+DELIMITER ',' IGNOREHEADER 1 region 'us-east-1' executed
+2021-01-30 21:16:59.232 | INFO     | run_copy_command:main:66 - Copy command executed successfully
+2021-01-30 21:16:59.232 | INFO     | __main__:run:31 - Process Completed for the section COPY and for the table
+2021-01-30 21:18:08.796 | INFO     | __main__:<module>:59 - Welcome! This is useful for loading file into redshift
+2021-01-30 21:18:08.796 | INFO     | __main__:run:22 - Process Started for the section COPY and for the table
+2021-01-30 21:18:08.802 | INFO     | utils:read_table_details:24 - tbl_details.yaml read completed. Details loaded for section COPY
+2021-01-30 21:18:08.802 | INFO     | run_copy_command:copy_command:34 - Generated the copy command
+2021-01-30 21:18:08.803 | INFO     | run_copy_command:copy_command:35 - Command is as follows
+2021-01-30 21:18:08.806 | INFO     | run_copy_command:copy_command:36 - COPY practice.customers
+FROM 's3://sai-learn-airflow/data/customers.txt' iam_role 'arn:aws:iam::413645087273:role/RS_S3'
+DELIMITER ',' IGNOREHEADER 1 region 'us-east-1'
+2021-01-30 21:18:08.811 | INFO     | utils:read_table_details:24 - tbl_details.yaml read completed. Details loaded for section COPY
+2021-01-30 21:18:08.811 | INFO     | utils:read_config:90 - config.json read successfully
+2021-01-30 21:18:08.946 | INFO     | run_copy_command:run_command:54 - COPY practice.customers
+FROM 's3://sai-learn-airflow/data/customers.txt' iam_role 'arn:aws:iam::413645087273:role/RS_S3'
+DELIMITER ',' IGNOREHEADER 1 region 'us-east-1' executed
+2021-01-30 21:18:08.946 | INFO     | run_copy_command:main:66 - Copy command executed successfully
+2021-01-30 21:18:08.947 | INFO     | __main__:run:31 - Process Completed for the section COPY and for the table
+2021-01-30 21:18:49.268 | INFO     | __main__:<module>:59 - Welcome! This is useful for loading file into redshift
+2021-01-30 21:18:49.268 | INFO     | __main__:run:22 - Process Started for the section COPY and for the table
+2021-01-30 21:18:49.274 | INFO     | utils:read_table_details:24 - tbl_details.yaml read completed. Details loaded for section COPY
+2021-01-30 21:18:49.275 | INFO     | run_copy_command:copy_command:34 - Generated the copy command
+2021-01-30 21:18:49.275 | INFO     | run_copy_command:copy_command:35 - Command is as follows
+2021-01-30 21:18:49.278 | INFO     | run_copy_command:copy_command:36 - COPY practice.customers
+FROM 's3://sai-learn-airflow/data/customers.csv' iam_role 'arn:aws:iam::413645087273:role/RS_S3'
+DELIMITER ',' IGNOREHEADER 1 region 'us-east-1'
+2021-01-30 21:18:49.283 | INFO     | utils:read_table_details:24 - tbl_details.yaml read completed. Details loaded for section COPY
+2021-01-30 21:18:49.283 | INFO     | utils:read_config:90 - config.json read successfully
+2021-01-30 21:18:50.526 | INFO     | run_copy_command:run_command:54 - COPY practice.customers
+FROM 's3://sai-learn-airflow/data/customers.csv' iam_role 'arn:aws:iam::413645087273:role/RS_S3'
+DELIMITER ',' IGNOREHEADER 1 region 'us-east-1' executed
+2021-01-30 21:18:50.527 | INFO     | run_copy_command:main:66 - Copy command executed successfully
+2021-01-30 21:18:50.527 | INFO     | __main__:run:31 - Process Completed for the section COPY and for the table
+2021-01-30 21:24:01.660 | INFO     | __main__:<module>:59 - Welcome! This is useful for loading file into redshift
+2021-01-30 21:24:01.661 | INFO     | __main__:run:22 - Process Started for the section CREATE_EXTERNAL and for the table
+2021-01-30 21:24:01.667 | INFO     | utils:read_table_details:24 - tbl_details.yaml read completed. Details loaded for section CREATE_EXTERNAL
+2021-01-30 21:24:19.428 | INFO     | __main__:<module>:59 - Welcome! This is useful for loading file into redshift
+2021-01-30 21:24:19.429 | INFO     | __main__:run:22 - Process Started for the section CREATE_EXTERNAL and for the table
+2021-01-30 21:24:19.435 | INFO     | utils:read_table_details:24 - tbl_details.yaml read completed. Details loaded for section CREATE_EXTERNAL
+2021-01-30 21:24:19.435 | INFO     | create_external_table:create_command:34 - Command is as follows
+2021-01-30 21:24:19.438 | INFO     | create_external_table:create_command:35 - CREATE EXTERNAL SCHEMA 'ext_practice'
+FROM DATA CATALOG DATABASE `` region 'us-east-1' iam_role 'arn:aws:iam::413645087273:role/RS_S3'
+2021-01-30 21:24:19.443 | INFO     | utils:read_table_details:24 - tbl_details.yaml read completed. Details loaded for section CREATE_EXTERNAL
+2021-01-30 21:24:19.443 | INFO     | utils:read_config:90 - config.json read successfully
+2021-01-30 21:24:19.509 | INFO     | create_external_table:run_command:53 - CREATE EXTERNAL SCHEMA 'ext_practice'
+FROM DATA CATALOG DATABASE `` region 'us-east-1' iam_role 'arn:aws:iam::413645087273:role/RS_S3' executed
+2021-01-30 21:24:19.509 | INFO     | create_external_table:main:65 - create_external_schema_command command ran fine!
+2021-01-30 21:24:19.514 | INFO     | utils:read_table_details:24 - tbl_details.yaml read completed. Details loaded for section CREATE_EXTERNAL
+2021-01-30 21:24:19.515 | INFO     | create_external_table:create_command:34 - Command is as follows
+2021-01-30 21:24:19.515 | INFO     | create_external_table:create_command:35 - CREATE EXTERNAL TABLE
+2021-01-30 21:24:19.521 | INFO     | utils:read_table_details:24 - tbl_details.yaml read completed. Details loaded for section CREATE_EXTERNAL
+2021-01-30 21:24:19.521 | INFO     | utils:read_config:90 - config.json read successfully
+2021-01-30 21:24:19.543 | INFO     | create_external_table:run_command:53 - CREATE EXTERNAL TABLE executed
+2021-01-30 21:24:19.543 | INFO     | create_external_table:main:65 - create_external_table_command command ran fine!
+2021-01-30 21:24:19.544 | INFO     | __main__:run:31 - Process Completed for the section CREATE_EXTERNAL and for the table
+2021-01-30 21:40:32.208 | INFO     | __main__:<module>:59 - Welcome! This is useful for loading file into redshift
+2021-01-30 21:40:32.209 | INFO     | __main__:run:22 - Process Started for the section CREATE_EXTERNAL and for the table
+2021-01-30 21:40:32.215 | INFO     | utils:read_table_details:24 - tbl_details.yaml read completed. Details loaded for section CREATE_EXTERNAL
+2021-01-30 21:40:32.215 | INFO     | create_external_table:create_command:34 - Command is as follows
+2021-01-30 21:40:32.218 | INFO     | create_external_table:create_command:35 - CREATE EXTERNAL SCHEMA 'ext_practice'
+FROM DATA CATALOG DATABASE `dev` region 'us-east-1' iam_role 'arn:aws:iam::413645087273:role/RS_S3'
+2021-01-30 21:40:32.224 | INFO     | utils:read_table_details:24 - tbl_details.yaml read completed. Details loaded for section CREATE_EXTERNAL
+2021-01-30 21:40:32.224 | INFO     | utils:read_config:90 - config.json read successfully
+2021-01-30 21:40:32.256 | INFO     | create_external_table:run_command:53 - CREATE EXTERNAL SCHEMA 'ext_practice'
+FROM DATA CATALOG DATABASE `dev` region 'us-east-1' iam_role 'arn:aws:iam::413645087273:role/RS_S3' executed
+2021-01-30 21:40:32.256 | INFO     | create_external_table:main:65 - create_external_schema_command command ran fine!
+2021-01-30 21:40:32.262 | INFO     | utils:read_table_details:24 - tbl_details.yaml read completed. Details loaded for section CREATE_EXTERNAL
+2021-01-30 21:40:32.262 | INFO     | create_external_table:create_command:34 - Command is as follows
+2021-01-30 21:40:32.270 | INFO     | create_external_table:create_command:35 - CREATE EXTERNAL TABLE ext_practice.iris(sepal_length decimal(8, 2),
+                                                     sepal_width decimal(8, 2),
+                                                                 petal_length decimal(8, 2),
+                                                                              petal_width decimal(8, 2),
+                                                                                          species varchar(255)) ROW format delimited fields terminated BY ',' stored AS textfile LOCATION 's3://sai-learn-airflow/data/iris.txt' TABLE properties ('numRows'='170000');
+2021-01-30 21:40:32.276 | INFO     | utils:read_table_details:24 - tbl_details.yaml read completed. Details loaded for section CREATE_EXTERNAL
+2021-01-30 21:40:32.276 | INFO     | utils:read_config:90 - config.json read successfully
+2021-01-30 21:40:32.305 | INFO     | create_external_table:run_command:53 - CREATE EXTERNAL TABLE ext_practice.iris(sepal_length decimal(8, 2),
+                                                     sepal_width decimal(8, 2),
+                                                                 petal_length decimal(8, 2),
+                                                                              petal_width decimal(8, 2),
+                                                                                          species varchar(255)) ROW format delimited fields terminated BY ',' stored AS textfile LOCATION 's3://sai-learn-airflow/data/iris.txt' TABLE properties ('numRows'='170000'); executed
+2021-01-30 21:40:32.305 | INFO     | create_external_table:main:65 - create_external_table_command command ran fine!
+2021-01-30 21:40:32.305 | INFO     | __main__:run:31 - Process Completed for the section CREATE_EXTERNAL and for the table
+2021-01-30 21:48:07.354 | INFO     | __main__:<module>:59 - Welcome! This is useful for loading file into redshift
+2021-01-30 21:48:07.355 | INFO     | __main__:run:22 - Process Started for the section CREATE_EXTERNAL and for the table
+2021-01-30 21:48:07.362 | INFO     | utils:read_table_details:24 - tbl_details.yaml read completed. Details loaded for section CREATE_EXTERNAL
+2021-01-30 21:48:07.362 | INFO     | create_external_table:create_command:34 - Command is as follows
+2021-01-30 21:48:07.365 | INFO     | create_external_table:create_command:35 - CREATE EXTERNAL SCHEMA 'ext_practice'
+FROM DATA CATALOG DATABASE `dev` region 'us-east-1' iam_role 'arn:aws:iam::413645087273:role/RS_S3'
+2021-01-30 21:48:07.371 | INFO     | utils:read_table_details:24 - tbl_details.yaml read completed. Details loaded for section CREATE_EXTERNAL
+2021-01-30 21:48:07.371 | INFO     | utils:read_config:90 - config.json read successfully
+2021-01-30 21:48:07.414 | INFO     | create_external_table:run_command:53 - CREATE EXTERNAL SCHEMA 'ext_practice'
+FROM DATA CATALOG DATABASE `dev` region 'us-east-1' iam_role 'arn:aws:iam::413645087273:role/RS_S3' executed
+2021-01-30 21:48:07.414 | INFO     | create_external_table:main:65 - create_external_schema_command command ran fine!
+2021-01-30 21:48:07.420 | INFO     | utils:read_table_details:24 - tbl_details.yaml read completed. Details loaded for section CREATE_EXTERNAL
+2021-01-30 21:48:07.420 | INFO     | create_external_table:create_command:34 - Command is as follows
+2021-01-30 21:48:07.428 | INFO     | create_external_table:create_command:35 - CREATE EXTERNAL TABLE practice.iris(sepal_length decimal(8, 2),
+                                                 sepal_width decimal(8, 2),
+                                                             petal_length decimal(8, 2),
+                                                                          petal_width decimal(8, 2),
+                                                                                      species varchar(255)) ROW format delimited fields terminated BY ',' stored AS textfile LOCATION 's3://sai-learn-airflow/data/iris.txt' TABLE properties ('numRows'='170000');
+2021-01-30 21:48:07.434 | INFO     | utils:read_table_details:24 - tbl_details.yaml read completed. Details loaded for section CREATE_EXTERNAL
+2021-01-30 21:48:07.434 | INFO     | utils:read_config:90 - config.json read successfully
+2021-01-30 21:48:07.465 | INFO     | create_external_table:run_command:53 - CREATE EXTERNAL TABLE practice.iris(sepal_length decimal(8, 2),
+                                                 sepal_width decimal(8, 2),
+                                                             petal_length decimal(8, 2),
+                                                                          petal_width decimal(8, 2),
+                                                                                      species varchar(255)) ROW format delimited fields terminated BY ',' stored AS textfile LOCATION 's3://sai-learn-airflow/data/iris.txt' TABLE properties ('numRows'='170000'); executed
+2021-01-30 21:48:07.465 | INFO     | create_external_table:main:65 - create_external_table_command command ran fine!
+2021-01-30 21:48:07.465 | INFO     | __main__:run:31 - Process Completed for the section CREATE_EXTERNAL and for the table
+2021-01-30 22:01:51.874 | INFO     | __main__:<module>:59 - Welcome! This is useful for loading file into redshift
+2021-01-30 22:01:51.875 | INFO     | __main__:run:22 - Process Started for the section CREATE_EXTERNAL and for the table
+2021-01-30 22:01:51.881 | INFO     | utils:read_table_details:24 - tbl_details.yaml read completed. Details loaded for section CREATE_EXTERNAL
+2021-01-30 22:01:51.881 | INFO     | create_external_table:create_command:34 - Command is as follows
+2021-01-30 22:01:51.884 | INFO     | create_external_table:create_command:35 - CREATE EXTERNAL SCHEMA 'ext_practice'
+FROM DATA CATALOG DATABASE 'dev' region 'us-east-1' iam_role 'arn:aws:iam::413645087273:role/RS_S3'
+2021-01-30 22:01:51.890 | INFO     | utils:read_table_details:24 - tbl_details.yaml read completed. Details loaded for section CREATE_EXTERNAL
+2021-01-30 22:01:51.890 | INFO     | utils:read_config:90 - config.json read successfully
+2021-01-30 22:01:51.917 | INFO     | create_external_table:run_command:53 - CREATE EXTERNAL SCHEMA 'ext_practice'
+FROM DATA CATALOG DATABASE 'dev' region 'us-east-1' iam_role 'arn:aws:iam::413645087273:role/RS_S3' executed
+2021-01-30 22:01:51.917 | INFO     | create_external_table:main:65 - create_external_schema_command command ran fine!
+2021-01-30 22:01:51.922 | INFO     | utils:read_table_details:24 - tbl_details.yaml read completed. Details loaded for section CREATE_EXTERNAL
+2021-01-30 22:01:51.923 | INFO     | create_external_table:create_command:34 - Command is as follows
+2021-01-30 22:01:51.930 | INFO     | create_external_table:create_command:35 - CREATE EXTERNAL TABLE practice.iris(sepal_length decimal(8, 2),
+                                                 sepal_width decimal(8, 2),
+                                                             petal_length decimal(8, 2),
+                                                                          petal_width decimal(8, 2),
+                                                                                      species varchar(255)) ROW format delimited fields terminated BY ',' stored AS textfile LOCATION 's3://sai-learn-airflow/data/iris.txt'
+2021-01-30 22:01:51.935 | INFO     | utils:read_table_details:24 - tbl_details.yaml read completed. Details loaded for section CREATE_EXTERNAL
+2021-01-30 22:01:51.936 | INFO     | utils:read_config:90 - config.json read successfully
+2021-01-30 22:01:51.964 | INFO     | create_external_table:run_command:53 - CREATE EXTERNAL TABLE practice.iris(sepal_length decimal(8, 2),
+                                                 sepal_width decimal(8, 2),
+                                                             petal_length decimal(8, 2),
+                                                                          petal_width decimal(8, 2),
+                                                                                      species varchar(255)) ROW format delimited fields terminated BY ',' stored AS textfile LOCATION 's3://sai-learn-airflow/data/iris.txt' executed
+2021-01-30 22:01:51.964 | INFO     | create_external_table:main:65 - create_external_table_command command ran fine!
+2021-01-30 22:01:51.965 | INFO     | __main__:run:31 - Process Completed for the section CREATE_EXTERNAL and for the table
+2021-01-30 22:02:44.635 | INFO     | __main__:<module>:59 - Welcome! This is useful for loading file into redshift
+2021-01-30 22:02:44.636 | INFO     | __main__:run:22 - Process Started for the section CREATE_EXTERNAL and for the table
+2021-01-30 22:02:44.642 | INFO     | utils:read_table_details:24 - tbl_details.yaml read completed. Details loaded for section CREATE_EXTERNAL
+2021-01-30 22:02:44.642 | INFO     | create_external_table:create_command:34 - Command is as follows
+2021-01-30 22:02:44.645 | INFO     | create_external_table:create_command:35 - CREATE EXTERNAL SCHEMA 'ext_practice'
+FROM DATA CATALOG DATABASE 'dev' region 'us-east-1' iam_role 'arn:aws:iam::413645087273:role/RS_S3'
+2021-01-30 22:02:44.651 | INFO     | utils:read_table_details:24 - tbl_details.yaml read completed. Details loaded for section CREATE_EXTERNAL
+2021-01-30 22:02:44.651 | INFO     | utils:read_config:90 - config.json read successfully
+2021-01-30 22:02:44.701 | INFO     | create_external_table:run_command:53 - CREATE EXTERNAL SCHEMA 'ext_practice'
+FROM DATA CATALOG DATABASE 'dev' region 'us-east-1' iam_role 'arn:aws:iam::413645087273:role/RS_S3' executed
+2021-01-30 22:02:44.702 | INFO     | create_external_table:main:65 - create_external_schema_command command ran fine!
+2021-01-30 22:02:44.707 | INFO     | utils:read_table_details:24 - tbl_details.yaml read completed. Details loaded for section CREATE_EXTERNAL
+2021-01-30 22:02:44.708 | INFO     | create_external_table:create_command:34 - Command is as follows
+2021-01-30 22:02:44.715 | INFO     | create_external_table:create_command:35 - CREATE EXTERNAL TABLE ext_practice.iris(sepal_length decimal(8, 2),
+                                                     sepal_width decimal(8, 2),
+                                                                 petal_length decimal(8, 2),
+                                                                              petal_width decimal(8, 2),
+                                                                                          species varchar(255)) ROW format delimited fields terminated BY ',' stored AS textfile LOCATION 's3://sai-learn-airflow/data/iris.txt'
+2021-01-30 22:02:44.720 | INFO     | utils:read_table_details:24 - tbl_details.yaml read completed. Details loaded for section CREATE_EXTERNAL
+2021-01-30 22:02:44.721 | INFO     | utils:read_config:90 - config.json read successfully
+2021-01-30 22:02:44.753 | INFO     | create_external_table:run_command:53 - CREATE EXTERNAL TABLE ext_practice.iris(sepal_length decimal(8, 2),
+                                                     sepal_width decimal(8, 2),
+                                                                 petal_length decimal(8, 2),
+                                                                              petal_width decimal(8, 2),
+                                                                                          species varchar(255)) ROW format delimited fields terminated BY ',' stored AS textfile LOCATION 's3://sai-learn-airflow/data/iris.txt' executed
+2021-01-30 22:02:44.754 | INFO     | create_external_table:main:65 - create_external_table_command command ran fine!
+2021-01-30 22:02:44.754 | INFO     | __main__:run:31 - Process Completed for the section CREATE_EXTERNAL and for the table
+2021-01-30 22:35:03.878 | INFO     | __main__:<module>:59 - Welcome! This is useful for loading file into redshift
+2021-01-30 22:35:03.879 | INFO     | __main__:run:22 - Process Started for the section CREATE_EXTERNAL and for the table
+2021-01-30 22:35:03.885 | INFO     | utils:read_table_details:24 - tbl_details.yaml read completed. Details loaded for section CREATE_EXTERNAL
+2021-01-30 22:35:03.885 | INFO     | create_external_table:create_command:34 - Command is as follows
+2021-01-30 22:35:03.888 | INFO     | create_external_table:create_command:35 - CREATE EXTERNAL SCHEMA ext_practice
+FROM DATA CATALOG DATABASE 'glue_s3' region 'us-east-1' iam_role 'arn:aws:iam::413645087273:role/RS_S3'
+2021-01-30 22:35:03.893 | INFO     | utils:read_table_details:24 - tbl_details.yaml read completed. Details loaded for section CREATE_EXTERNAL
+2021-01-30 22:35:03.894 | INFO     | utils:read_config:90 - config.json read successfully
+2021-01-30 22:35:03.959 | INFO     | create_external_table:run_command:53 - CREATE EXTERNAL SCHEMA ext_practice
+FROM DATA CATALOG DATABASE 'glue_s3' region 'us-east-1' iam_role 'arn:aws:iam::413645087273:role/RS_S3' executed
+2021-01-30 22:35:03.959 | INFO     | create_external_table:main:65 - create_external_schema_command command ran fine!
+2021-01-30 22:35:03.965 | INFO     | utils:read_table_details:24 - tbl_details.yaml read completed. Details loaded for section CREATE_EXTERNAL
+2021-01-30 22:35:03.965 | INFO     | create_external_table:create_command:34 - Command is as follows
+2021-01-30 22:35:03.972 | INFO     | create_external_table:create_command:35 - CREATE EXTERNAL TABLE ext_practice.iris(sepal_length decimal(8, 2),
+                                                     sepal_width decimal(8, 2),
+                                                                 petal_length decimal(8, 2),
+                                                                              petal_width decimal(8, 2),
+                                                                                          species varchar(255)) ROW format delimited fields terminated BY ',' stored AS textfile LOCATION 's3://sai-learn-airflow/data/iris.txt'
+2021-01-30 22:35:03.978 | INFO     | utils:read_table_details:24 - tbl_details.yaml read completed. Details loaded for section CREATE_EXTERNAL
+2021-01-30 22:35:03.978 | INFO     | utils:read_config:90 - config.json read successfully
+2021-01-30 22:35:04.011 | INFO     | create_external_table:run_command:53 - CREATE EXTERNAL TABLE ext_practice.iris(sepal_length decimal(8, 2),
+                                                     sepal_width decimal(8, 2),
+                                                                 petal_length decimal(8, 2),
+                                                                              petal_width decimal(8, 2),
+                                                                                          species varchar(255)) ROW format delimited fields terminated BY ',' stored AS textfile LOCATION 's3://sai-learn-airflow/data/iris.txt' executed
+2021-01-30 22:35:04.011 | INFO     | create_external_table:main:65 - create_external_table_command command ran fine!
+2021-01-30 22:35:04.012 | INFO     | __main__:run:31 - Process Completed for the section CREATE_EXTERNAL and for the table
+2021-01-30 22:36:11.281 | INFO     | __main__:<module>:59 - Welcome! This is useful for loading file into redshift
+2021-01-30 22:36:11.282 | INFO     | __main__:run:22 - Process Started for the section CREATE_EXTERNAL and for the table
+2021-01-30 22:36:11.288 | INFO     | utils:read_table_details:24 - tbl_details.yaml read completed. Details loaded for section CREATE_EXTERNAL
+2021-01-30 22:36:11.289 | INFO     | create_external_table:create_command:34 - Command is as follows
+2021-01-30 22:36:11.291 | INFO     | create_external_table:create_command:35 - CREATE EXTERNAL SCHEMA ext_practice
+FROM DATA CATALOG DATABASE 'glue_s3' region 'us-east-1' iam_role 'arn:aws:iam::413645087273:role/RS_S3'
+2021-01-30 22:36:11.297 | INFO     | utils:read_table_details:24 - tbl_details.yaml read completed. Details loaded for section CREATE_EXTERNAL
+2021-01-30 22:36:11.297 | INFO     | utils:read_config:90 - config.json read successfully
+2021-01-30 22:36:11.360 | INFO     | create_external_table:run_command:53 - CREATE EXTERNAL SCHEMA ext_practice
+FROM DATA CATALOG DATABASE 'glue_s3' region 'us-east-1' iam_role 'arn:aws:iam::413645087273:role/RS_S3' executed
+2021-01-30 22:36:11.360 | INFO     | create_external_table:main:65 - create_external_schema_command command ran fine!
+2021-01-30 22:36:11.366 | INFO     | utils:read_table_details:24 - tbl_details.yaml read completed. Details loaded for section CREATE_EXTERNAL
+2021-01-30 22:36:11.366 | INFO     | create_external_table:create_command:34 - Command is as follows
+2021-01-30 22:36:11.373 | INFO     | create_external_table:create_command:35 - CREATE EXTERNAL TABLE ext_practice.iris(sepal_length decimal(8, 2),
+                                                     sepal_width decimal(8, 2),
+                                                                 petal_length decimal(8, 2),
+                                                                              petal_width decimal(8, 2),
+                                                                                          species varchar(255)) ROW format delimited fields terminated BY ',' stored AS textfile LOCATION 's3://sai-learn-airflow/data/iris.txt'
+2021-01-30 22:36:11.379 | INFO     | utils:read_table_details:24 - tbl_details.yaml read completed. Details loaded for section CREATE_EXTERNAL
+2021-01-30 22:36:11.379 | INFO     | utils:read_config:90 - config.json read successfully
+2021-01-30 22:36:11.409 | INFO     | create_external_table:run_command:53 - CREATE EXTERNAL TABLE ext_practice.iris(sepal_length decimal(8, 2),
+                                                     sepal_width decimal(8, 2),
+                                                                 petal_length decimal(8, 2),
+                                                                              petal_width decimal(8, 2),
+                                                                                          species varchar(255)) ROW format delimited fields terminated BY ',' stored AS textfile LOCATION 's3://sai-learn-airflow/data/iris.txt' executed
+2021-01-30 22:36:11.409 | INFO     | create_external_table:main:65 - create_external_table_command command ran fine!
+2021-01-30 22:36:11.410 | INFO     | __main__:run:31 - Process Completed for the section CREATE_EXTERNAL and for the table
+2021-01-30 22:37:47.975 | INFO     | __main__:<module>:59 - Welcome! This is useful for loading file into redshift
+2021-01-30 22:37:47.976 | INFO     | __main__:run:22 - Process Started for the section CREATE_EXTERNAL and for the table
+2021-01-30 22:37:47.982 | INFO     | utils:read_table_details:24 - tbl_details.yaml read completed. Details loaded for section CREATE_EXTERNAL
+2021-01-30 22:37:47.982 | INFO     | create_external_table:create_command:34 - Command is as follows
+2021-01-30 22:37:47.985 | INFO     | create_external_table:create_command:35 - CREATE EXTERNAL SCHEMA ext_practice
+FROM DATA CATALOG DATABASE 'glue_s3' region 'us-east-1' iam_role 'arn:aws:iam::413645087273:role/RS_S3'
+2021-01-30 22:37:47.991 | INFO     | utils:read_table_details:24 - tbl_details.yaml read completed. Details loaded for section CREATE_EXTERNAL
+2021-01-30 22:37:47.992 | INFO     | utils:read_config:90 - config.json read successfully
+2021-01-30 22:37:48.057 | INFO     | create_external_table:run_command:53 - CREATE EXTERNAL SCHEMA ext_practice
+FROM DATA CATALOG DATABASE 'glue_s3' region 'us-east-1' iam_role 'arn:aws:iam::413645087273:role/RS_S3' executed
+2021-01-30 22:37:48.057 | INFO     | create_external_table:main:65 - create_external_schema_command command ran fine!
+2021-01-30 22:37:48.063 | INFO     | utils:read_table_details:24 - tbl_details.yaml read completed. Details loaded for section CREATE_EXTERNAL
+2021-01-30 22:37:48.063 | INFO     | create_external_table:create_command:34 - Command is as follows
+2021-01-30 22:37:48.070 | INFO     | create_external_table:create_command:35 - CREATE EXTERNAL TABLE ext_practice.iris(sepal_length decimal(8, 2),
+                                                     sepal_width decimal(8, 2),
+                                                                 petal_length decimal(8, 2),
+                                                                              petal_width decimal(8, 2),
+                                                                                          species varchar(255)) ROW format delimited fields terminated BY ',' stored AS textfile LOCATION 's3://sai-learn-airflow/data/iris.txt'
+2021-01-30 22:37:48.076 | INFO     | utils:read_table_details:24 - tbl_details.yaml read completed. Details loaded for section CREATE_EXTERNAL
+2021-01-30 22:37:48.076 | INFO     | utils:read_config:90 - config.json read successfully
+2021-01-30 22:37:48.105 | INFO     | create_external_table:run_command:53 - CREATE EXTERNAL TABLE ext_practice.iris(sepal_length decimal(8, 2),
+                                                     sepal_width decimal(8, 2),
+                                                                 petal_length decimal(8, 2),
+                                                                              petal_width decimal(8, 2),
+                                                                                          species varchar(255)) ROW format delimited fields terminated BY ',' stored AS textfile LOCATION 's3://sai-learn-airflow/data/iris.txt' executed
+2021-01-30 22:37:48.105 | INFO     | create_external_table:main:65 - create_external_table_command command ran fine!
+2021-01-30 22:37:48.106 | INFO     | __main__:run:31 - Process Completed for the section CREATE_EXTERNAL and for the table

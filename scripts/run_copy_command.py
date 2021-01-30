@@ -60,6 +60,7 @@ class RunCopy:
         :return:
         """
         copy_command = self.copy_command()
+        print(copy_command)
         if self.run_command(copy_command):
             print(f'{self.table_name} copied Successfully ')
         self.log.info('Copy command executed successfully')

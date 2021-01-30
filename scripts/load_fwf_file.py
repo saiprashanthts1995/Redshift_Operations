@@ -64,7 +64,8 @@ class Load_Fixed_Width:
         data.to_sql(name=table_name,
                     schema=schema,
                     con=connection,
-                    if_exists='replace')
+                    if_exists='replace',
+                    index=False)
         self.log.info('Data loaded to table {} completed successfully'.format(table_name))
         return "Success"
 

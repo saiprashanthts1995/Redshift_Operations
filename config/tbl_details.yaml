@@ -12,8 +12,8 @@ Table_Details:
       table_name: "customers"
       schema: "practice"
       config_name: "../config/config.json"
-      s3_file_path: "s3://sai-practice-redshift/data/customers.txt"
-      ARN: ""
+      s3_file_path: "s3://sai-learn-airflow/data/customers.csv"
+      ARN: "arn:aws:iam::413645087273:role/RS_S3"
       header_count: 1
       region: "us-east-1"
       delimiter: ","
@@ -25,11 +25,10 @@ Table_Details:
       ext_table_name: "iris"
       ext_schema: "ext_practice"
       config_name: "../config/config.json"
-      database: ""
-      external_s3_file_path: "s3://sai-practice-redshift/data/iris.txt"
-      ARN: ""
+      database: "glue_s3"
+      external_s3_file_path: "s3://sai-learn-airflow/data/iris.txt"
+      ARN: "arn:aws:iam::413645087273:role/RS_S3"
       region: "us-east-1"
-      create_external_schema_command: "create external schema '{ext_schema}' from data catalog database `{database}`
+      create_external_schema_command: "create external schema {ext_schema} from data catalog database '{database}'
        region '{region}' iam_role '{ARN}'"
-      create_external_table_command: "create external table "
-
+      create_external_table_command: "create external table {ext_schema}.{ext_table_name}( sepal_length decimal(8,2), sepal_width decimal(8,2), petal_length decimal(8,2), petal_width decimal(8,2), species varchar(255)) row format delimited fields terminated by ',' stored as textfile location '{external_s3_file_path}'"
