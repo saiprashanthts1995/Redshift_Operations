@@ -1,4 +1,4 @@
-# Redshift_Operations
+# Redshift Operations
 Perform Various Operations in Redshift like 
 * Load data into the table present in Redshift
 * Run copy command in Redshift
